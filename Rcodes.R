@@ -1,0 +1,15 @@
+getwd()
+dir.create("Data")
+dir.create("script")
+dir.create("result")
+data = read.csv("C:/Users/BAB AL SAFA/Downloads/patient_info.csv")
+str(data)
+data$height_num <- factor(data$height_fac,
+                          levels = c("Short", "Medium", "Tall"),
+                          labels = c(0, 1, 2)
+data$gender_fac <- as.factor(data$gender)
+str(data)
+data$gender_num <- ifelse(data$gender_fac == "Female", 1, 0)
+class(data$gender_num)
+data$gender_num <- as.factor(data$gender_num)
+class(data$gender_num)
