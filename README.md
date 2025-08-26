@@ -28,17 +28,27 @@ All discussions, Q&A, and updates will take place on our Discord channel.
 1.Introduction to Machine Learning & Linear Regression [Lecture ](https://youtu.be/c00yjmUp8UY?feature=shared)
 
 ### Practical Sessions
-1. Class Ia: R Program Installation [Lecture](https://youtu.be/cxc3lZPQUsI?feature=shared)
-2. Class Ib: R Basic Operations [Lecture](https://youtu.be/XyTMkfxI7rI?feature=shared) | [R Script ](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R)
-3. Class Ic: R Basic Syntax [Lecture](https://youtu.be/aJgdaeX7QaM) | [R Script with Practice Excercises](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R)
+1. **Class Ia:** R Program Installation [Lecture](https://youtu.be/cxc3lZPQUsI?feature=shared)
+2. **Class Ib:** R Basic Operations [Lecture](https://youtu.be/XyTMkfxI7rI?feature=shared) | [R Script ](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R)
+3. **Class Ic:** R Basic Syntax [Lecture](https://youtu.be/aJgdaeX7QaM) | [R Script with Practice Excercises](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R)
+4. **Class 2:** Operators in R | Data STructures in R  | User Define Functions | for-Loop [Lecture](https://youtu.be/b0WWZa6ZNeg?feature=shared) [R Script with Assignment II](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) 
 
 ## Tasks and Assignments
 1. **Class Ia:** Install R, RStudio & Rtools
-2. **Class Ib:** Set working directory, create R project and perform some basic data type conversions
-   > The complete task description is included in the Class Ib. Please refer to the [R script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R) for detailed instructions
-   > Please Submit your assignment via this link https://forms.gle/HxaWFHJRMnbrmJda9 Submission deadline : 5th August (Tuesday)  
+2. **Class Ib:** Set working directory, create R project and perform some basic data type conversions. The complete task description is included in the Class Ib. Please refer to the [R script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R) for detailed instructions
+   
+   > Please Submit your assignment via this link https://forms.gle/HxaWFHJRMnbrmJda9
+   
+   > **Submission deadline : Tuesday, 5th August(Midnight)**
+   
    > **Submission Deadline Extended to Friday, 08 August(Midnight)**
-3. **Class Ic:** Practice the given exercises from [class Ic](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R) in RStudio and commit your code to your GitHub.
+
+4. **Class Ic:** Practice the given exercises from [class Ic](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R) in RStudio and commit your code to your GitHub.
+5. **Clas 2:** Write a function to classify DEGs and apply it in a for-loop to process DEGs_data_1.csv and DEGs_data_2.csv automatically. Please refer to the [Class 2 R script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) for more detailed intrstruction:
+
+   > Please Submit your assignment via this link https://forms.gle/iSYMqrADpi2z9Mjj8
+   
+   > **Submission Deadline: Sunday, 31st August(Midnight)** 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
