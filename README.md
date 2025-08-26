@@ -31,7 +31,7 @@ All discussions, Q&A, and updates will take place on our Discord channel.
 1. **Class Ia:** R Program Installation [Lecture](https://youtu.be/cxc3lZPQUsI?feature=shared)
 2. **Class Ib:** R Basic Operations [Lecture](https://youtu.be/XyTMkfxI7rI?feature=shared) | [R Script ](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R)
 3. **Class Ic:** R Basic Syntax [Lecture](https://youtu.be/aJgdaeX7QaM) | [R Script with Practice Excercises](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R)
-4. **Class 2:** Operators in R | Data STructures in R  | User Define Functions | for-Loop [Lecture](https://youtu.be/b0WWZa6ZNeg?feature=shared) [R Script with Assignment II](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) 
+4. **Class 2:** Operators in R | Data STructures in R  | User Define Functions | for-Loop | [Lecture](https://youtu.be/b0WWZa6ZNeg?feature=shared) | [R Script with Assignment II](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) 
 
 ## Tasks and Assignments
 1. **Class Ia:** Install R, RStudio & Rtools
