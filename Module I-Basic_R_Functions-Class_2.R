@@ -235,7 +235,7 @@ clean_data_4[is.na(clean_data_4)] <- mean(data$age, na.rm = TRUE)
 # 3. Body: performs BMI calculation e.g   # Formula: BMI = weight / (height^2)
 # 4. Return Value: the BMI value
 
-Calculate_BMI <- function(weight, height) {
+calculate_BMI <- function(weight, height) {
   # Perform the BMI calculation
   Bmi <- weight / (height ^ 2)
   
@@ -254,7 +254,7 @@ calculate_BMI(weight = weight, height = height)
 calculate_BMI(60) 
 
 # You can assign default values to function arguments
-Calculate_BMI <- function(weight, height = 1.75) {
+calculate_BMI <- function(weight, height = 1.75) {
   # Perform the BMI calculation
   Bmi <- weight / (height ^ 2)
   
@@ -445,3 +445,4 @@ results_2 <- result_list[[2]]
 # Gene_Id	
 # padj	
 # logFC
+
