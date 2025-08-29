@@ -230,7 +230,7 @@ clean_data_4[is.na(clean_data_4)] <- mean(data$age, na.rm = TRUE)
 
 # Example: A function to calculate Body Mass Index (BMI)
 
-# 1. Function Name: Calculate_BMI
+# 1. Function Name: calculate_BMI
 # 2. Arguments: weight (in kg), height (in meters)
 # 3. Body: performs BMI calculation e.g   # Formula: BMI = weight / (height^2)
 # 4. Return Value: the BMI value
@@ -263,7 +263,7 @@ calculate_BMI <- function(weight, height = 1.75) {
 }
 
 # In this case, if you don’t provide height, R automatically uses 1.75 as the default.
-Calculate_BMI(weight = 60)
+calculate_BMI(weight = 60)
 
 # ----------------------------
 # Lazy evaluation in R
@@ -445,4 +445,5 @@ results_2 <- result_list[[2]]
 # Gene_Id	
 # padj	
 # logFC
+
 
