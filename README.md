@@ -31,7 +31,7 @@ All discussions, Q&A, and updates will take place on our Discord channel.
 1. **Class Ia:** R Program Installation [Lecture](https://youtu.be/cxc3lZPQUsI?feature=shared)
 2. **Class Ib:** R Basic Operations [Lecture](https://youtu.be/XyTMkfxI7rI?feature=shared) | [R Script ](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Getting%20Started%20WIth%20R-Class%20Ib.R)
 3. **Class Ic:** R Basic Syntax [Lecture](https://youtu.be/aJgdaeX7QaM) | [R Script with Practice Excercises](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R)
-4. **Class 2:** Operators in R | Data STructures in R  | User Define Functions | for-Loop | [Lecture](https://youtu.be/b0WWZa6ZNeg?feature=shared) | [R Script with Assignment II](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) 
+4. **Class 2:** Operators in R | Data STructures in R  | User Define Functions | for-Loop | [Lecture](https://youtu.be/b0WWZa6ZNeg?feature=shared) | [R Script with Assignment II](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R)
 
 ## Tasks and Assignments
 1. **Class Ia:** Install R, RStudio & Rtools
@@ -39,9 +39,9 @@ All discussions, Q&A, and updates will take place on our Discord channel.
    
    > Please Submit your assignment via this link https://forms.gle/HxaWFHJRMnbrmJda9
    
-   > **Submission deadline : Tuesday, 5th August(Midnight)**
+   > **Submission Deadline : Tuesday, 05th August(Midnight)**
    
-   > **Submission Deadline Extended to Friday, 08 August(Midnight)**
+   > **Submission Deadline Extended to Friday, 08th August(Midnight)**
 
 4. **Class Ic:** Practice the given exercises from [class Ic](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_Syntax-CLass%20Ic.R) in RStudio and commit your code to your GitHub.
 5. **Clas 2:** Write a function to classify DEGs and apply it in a for-loop to process DEGs_data_1.csv and DEGs_data_2.csv automatically. Please refer to the [Class 2 R script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20I-Basic_R_Functions-Class_2.R) for more detailed intrstruction:
@@ -49,6 +49,13 @@ All discussions, Q&A, and updates will take place on our Discord channel.
    > Please Submit your assignment via this link https://forms.gle/iSYMqrADpi2z9Mjj8
    
    > **Submission Deadline: Sunday, 31st August(Midnight)** 
+6. **Class 3A:** Find a suitable public microarray dataset from ArrayExpress and NCBI.
+   > Watch the video tutorials for step-by-step guidance [Part I:](https://youtu.be/dcs9j92SU0s?feature=shared) for ArrayExpress & [Part II](https://youtu.be/7q1P7Ksn4uk?feature=shared) for NCBI-GEO  
+   > Please refer to the guide notes for complete instruction [Data Fetching Guide](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Data_Fetching_Instructions.pdf)  
+   > Submit your dataset details through this submission link: https://forms.gle/LekzMm7QbeKGCGZt6      
+   > **Submission Deadline: Sunday, 14th September(Midnight)**
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
