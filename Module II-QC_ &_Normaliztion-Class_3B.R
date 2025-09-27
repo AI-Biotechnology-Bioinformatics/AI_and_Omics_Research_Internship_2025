@@ -5,7 +5,7 @@
 # ---------------------------------------------------------------------
 #              AI and Omics Research Internship (2025)
 # ---------------------------------------------------------------------
-#             Module II: Gene Expression Data Analysis
+#             Module II: Introduction to Genomics Data Analysis
 # ---------------------------------------------------------------------
 #                     Microarray Data Analysis
 # =====================================================================
@@ -214,4 +214,5 @@ levels(groups)
 # Google Form: https://forms.gle/1e9tj2Mqf5T9FKEJ7
 
 # Deadline: Sunday 5th October, 2025 (Midnight)
+
 
