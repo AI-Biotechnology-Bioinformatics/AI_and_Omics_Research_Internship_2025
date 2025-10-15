@@ -19,7 +19,7 @@ Welcome to the official repository of the AI and Omics Research Internship (2025
  5. **Class 3A (Part-I)** Finding Microarray Dataset from ArrayExpress [Lecture Video](https://youtu.be/dcs9j92SU0s?feature=shared)
  6. **Class 3A (Part-II)** Finding Microarray Dataset from NCBI-GEO [Lecture Video](https://youtu.be/7q1P7Ksn4uk?feature=shared)
  7. **Class 3B** Preprocessing and Normalization of Microarray Data in R [Lecture Video](https://youtu.be/DZMxkHxwWag?feature=shared) | [R Script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20II-QC_%20%26_Normaliztion-Class_3B.R)
- 8. **Class 3C** Differential Gene Expression Analysis in R [Lecture Video](https://youtu.be/-9stt4J5J8s?si=L_eH1Fx4hDDXf27Z) | R Script(https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20II-Differential_Expression_Class_3C.R)
+ 8. **Class 3C** Differential Gene Expression Analysis in R [Lecture Video](https://youtu.be/-9stt4J5J8s?si=L_eH1Fx4hDDXf27Z) | [R Script](https://github.com/AI-Biotechnology-Bioinformatics/AI_and_Omics_Research_Internship_2025/blob/main/Module%20II-Differential_Expression_Class_3C.R)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Tasks and Assignments
