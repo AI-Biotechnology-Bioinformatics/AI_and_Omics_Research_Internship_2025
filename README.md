@@ -1,5 +1,5 @@
 # AI and Omics Research Internship 2025  
-Welcome to the official repository of the AI and Omics Research Internship (2025). 
+Welcome to the official repository of the AI and Omics Research Internship (2025).  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Theory Session
