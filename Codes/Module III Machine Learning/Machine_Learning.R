@@ -33,7 +33,8 @@ library(ggplot2)       # Visualization (for plots, bar charts, ROC etc.)
 # In this stage, we prepare our data for modeling by cleaning, 
 # transforming, and standardizing it.
 
-data <- read.delim("Batch_Corrected_Processed_Matrix.txt")  # Input = normalized expression matrix
+data <- read.csv("Datasets/Colorectal_Cancer.csv", row.names = 1)  # Input = normalized expression matrix
+brief <- read.csv("Datasets/Brief_Colorectal_Cancer.csv", row.names = 1)
 
 dim(data)  # Number of genes (columns) and samples (rows)
 str(data)  # Data structure overview
@@ -121,7 +122,10 @@ View(data_t)
 set.seed(123)
 trainIndex <- createDataPartition(data_t$groups, p = 0.7, list = FALSE)
 train_data <- data_t[trainIndex, ]
+dim(train_data)
+
 test_data  <- data_t[-trainIndex, ]
+dim(test_data)
 
 x_train <- train_data[, -1]  # Gene expression matrix
 y_train <- train_data$groups # Class labels
@@ -148,8 +152,10 @@ y_test  <- test_data$groups
 boruta_result <- Boruta(x = x_train, 
                         y = y_train, 
                         doTrace = 1)
+boruta_result
 
 final_boruta <- TentativeRoughFix(boruta_result) # fix tentative features
+final_boruta
 
 boruta_features <- getSelectedAttributes(final_boruta)
 
@@ -169,6 +175,7 @@ rfe_result <- rfe(x = x_train,
                   y = y_train, 
                   sizes = c(1:5, 10, 50), 
                   rfeControl = rfe_control)
+rfe_result
 
 plot(rfe_result, type = c("g", "o"))
 
@@ -179,6 +186,7 @@ write.csv(rfe_features, "Results/rfe_selected_genes.csv", row.names = FALSE)
 # Common features selected by both Boruta and RFE
 
 common_features <- intersect(boruta_features, rfe_features)
+length(common_features)
 
 write.csv(common_features, "Results/common_selected_genes.csv", row.names = FALSE)
 
@@ -200,7 +208,10 @@ test_boruta  <- x_test[, boruta_features]
 # ----------------------------------
 # ---- Model 1: Random Forest  ----
 # ----------------------------------
-RF_boruta <- train(x = train_boruta, y = y_train, method = "rf", importance = TRUE, trControl = ctrl)
+RF_boruta <- train(x = train_boruta, y = y_train, method = "rf", 
+                   importance = TRUE, 
+                   trControl = ctrl)
+
 plot(varImp(RF_boruta), top = 10)  # Visualize top contributing genes
 
 # -----------------------------------------
@@ -257,6 +268,11 @@ rf_roc_boruta  <- roc(y_test, as.numeric(rf_prob_boruta[, 1]))
 svm_roc_boruta <- roc(y_test, as.numeric(svm_prob_boruta[, 1]))
 ann_roc_boruta <- roc(y_test, as.numeric(ann_prob_boruta[, 1]))
 
+rf_auc_boruta <- auc(rf_roc_boruta)
+svm_auc_boruta <- auc(svm_roc_boruta)
+ann_auc_boruta <- auc(ann_roc_boruta)
+
+
 rf_auc_boruta; svm_auc_boruta; ann_auc_boruta
 
 # Plot ROC curves for visual comparison
@@ -273,9 +289,25 @@ train_rfe <- x_train[, rfe_features]
 test_rfe  <- x_test[, rfe_features]
 
 # Train again using RFE features to compare results
-RF_rfe  <- train(x = train_rfe,  y = y_train, method = "rf", trControl = ctrl)
-svm_rfe <- train(x = train_rfe, y = y_train, method = "svmRadial", trControl = ctrl)
-ann_rfe <- train(x = train_rfe, y = y_train, method = "nnet", trControl = ctrl)
+
+# Random Forest
+RF_rfe <- train(x = train_rfe, y = y_train, method = "rf", 
+                   importance = TRUE, 
+                   trControl = ctrl)
+
+plot(varImp(RF_boruta), top = 10)  # Visualize top contributing genes
+
+# SVM
+svm_rfe <- train(x = train_rfe, y = y_train, method = "svmRadial",
+                    trControl = ctrl,
+                    tuneGrid= data.frame(C=c(0.25,0.5,1), sigma= 0.5),
+                    prob.model = TRUE)
+
+#ANN
+ann_rfe <- train(x = train_boruta, y = y_train, method = "nnet",
+                    trControl = ctrl,
+                    tuneGrid = data.frame(size = 1:2, decay = 0),
+                    MaxNWts = 2000)
 
 # Evaluate and compare
 rf_pred_rfe  <- predict(RF_rfe, newdata = test_rfe)
@@ -303,6 +335,14 @@ rf_roc_rfe  <- roc(y_test, as.numeric(rf_prob_rfe[, 1]))
 svm_roc_rfe <- roc(y_test, as.numeric(svm_prob_rfe[, 1]))
 ann_roc_rfe <- roc(y_test, as.numeric(ann_prob_rfe[, 1]))
 
+rf_auc_rfe <- auc(rf_roc_rfe)
+svm_auc_rfe <- auc(svm_roc_rfe)
+ann_auc_rfe <- auc(ann_roc_rfe)
+
+
+rf_auc_rfe; svm_auc_rfe; ann_auc_rfe
+
+dev.off()
 plot(rf_roc_rfe, col = "blue", lwd = 2, main = "ROC Curve - RFE Features")
 plot(svm_roc_rfe, col = "red", lwd = 2, add = TRUE)
 plot(ann_roc_rfe, col = "green", lwd = 2, add = TRUE)
