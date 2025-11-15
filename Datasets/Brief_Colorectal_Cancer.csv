@@ -1,0 +1,463 @@
+,Characteristics.individual.,Characteristics.sampling.site.,Characteristics.disease.staging.,Characteristics.developmental.stage.,Characteristics.sex.
+1,GSM237924,cancer,M0,adult,female
+2,GSM237972,cancer,M0,adult,female
+3,GSM820089,cancer,AJCC stage II; M0,adult,male
+4,GSM215084,cancer,  ,not available,not available
+5,GSM820105,cancer,AJCC stage II; M0,adult,female
+6,GSM237935,cancer,M0,adult,female
+7,GSM95503,cancer,  ,not available,not available
+8,GSM588860,cancer,  ,not available,male
+9,GSM95496,cancer,  ,not available,not available
+10,GSM916688,cancer,high grade dysplasia,not available,not available
+11,GSM916703,cancer,low grade dysplasia,not available,not available
+12,GSM237980,cancer,M1,adult,female
+13,GSM523347,cancer,  ,adult,female
+14,GSM820063,cancer,AJCC stage II; M0,adult,female
+15,GSM588832,cancer,  ,not available,female
+16,GSM588833,cancer,  ,not available,female
+17,GSM916715,cancer,low grade dysplasia,not available,not available
+18,GSM820107,cancer,AJCC stage II; M1,adult,female
+19,GSM237968,cancer,M0,adult,male
+20,GSM237950,cancer,M0,adult,female
+21,GSM523317,cancer,  ,adult,female
+22,GSM800775,cancer,stage: 2b; M0,not available,not available
+23,GSM523325,cancer,  ,adult,female
+24,GSM523288,cancer,  ,adult,male
+25,GSM215096,cancer,  ,not available,not available
+26,GSM400180,cancer,  ,not available,not available
+27,GSM237978,cancer,M0,adult,female
+28,GSM237962,cancer,M0,adult,male
+29,GSM916713,cancer,low grade dysplasia,not available,not available
+30,GSM820121,cancer,AJCC stage II; M0,adult,female
+31,GSM237929,cancer,M0,adult,male
+32,GSM452660,cancer,M0,not available,not available
+33,GSM570821,cancer,  ,not available,female
+34,GSM215113,cancer,  ,not available,not available
+35,GSM523329,cancer,  ,adult,male
+36,GSM523346,cancer,  ,adult,male
+37,GSM523295,cancer,  ,adult,male
+38,GSM820053,cancer,AJCC stage II; M0,adult,male
+39,GSM215102,cancer,  ,not available,not available
+40,GSM588851,cancer,  ,not available,male
+41,GSM916722,cancer,Dukes A/B,not available,not available
+42,GSM523372,cancer,  ,adult,female
+43,GSM237934,cancer,M1,adult,male
+44,GSM523293,cancer,  ,adult,female
+45,GSM215093,cancer,  ,not available,not available
+46,GSM237920,cancer,M0,adult,female
+47,GSM95506,cancer,  ,not available,not available
+48,GSM800773,cancer,stage: 2a; M0,not available,not available
+49,GSM237937,cancer,M0,adult,female
+50,GSM237938,cancer,M0,adult,male
+51,GSM820134,cancer,AJCC stage II; M0,adult,female
+52,GSM820076,cancer,AJCC stage II; M0,adult,female
+53,GSM820127,cancer,AJCC stage II; M1,adult,male
+54,GSM95487,cancer,  ,not available,not available
+55,GSM452651,cancer,M0,not available,not available
+56,GSM452654,cancer,M0,not available,not available
+57,GSM452658,cancer,M1,not available,not available
+58,GSM549142,cancer,stage: 2b; M0,not available,not available
+59,GSM820051,cancer,AJCC stage II; M1,adult,male
+60,GSM820120,cancer,AJCC stage II; M0,adult,female
+61,GSM523322,cancer,  ,adult,male
+62,GSM523316,cancer,  ,adult,female
+63,GSM237970,cancer,M0,adult,male
+64,GSM95491,cancer,  ,not available,not available
+65,GSM916736,cancer,  ,not available,not available
+66,GSM215111,cancer,  ,not available,not available
+67,GSM237969,cancer,M0,adult,female
+68,GSM523248,cancer,  ,not available,female
+69,GSM820133,cancer,AJCC stage II; M0,adult,male
+70,GSM215086,cancer,  ,not available,not available
+71,GSM588858,cancer,  ,not available,male
+72,GSM588836,cancer,  ,not available,male
+73,GSM916721,cancer,Dukes A/B,not available,not available
+74,GSM916694,cancer,high grade dysplasia,not available,not available
+75,GSM588828,cancer,  ,not available,male
+76,GSM523308,cancer,  ,adult,female
+77,GSM215109,cancer,  ,not available,not available
+78,GSM820069,cancer,AJCC stage II; M0,adult,male
+79,GSM916699,cancer,high grade dysplasia,not available,not available
+80,GSM820119,cancer,AJCC stage II; M1,adult,female
+81,GSM237971,cancer,M1,adult,female
+82,GSM237977,cancer,M0,adult,male
+83,GSM215104,cancer,  ,not available,not available
+84,GSM400177,cancer,  ,not available,not available
+85,GSM215083,cancer,  ,not available,not available
+86,GSM237953,cancer,M0,adult,male
+87,GSM523357,cancer,  ,adult,male
+88,GSM916702,cancer,low grade dysplasia,not available,not available
+89,GSM95505,cancer,  ,not available,not available
+90,GSM916737,cancer,  ,not available,not available
+91,GSM588831,cancer,  ,not available,male
+92,GSM215095,cancer,  ,not available,not available
+93,GSM95488,cancer,  ,not available,not available
+94,GSM523340,cancer,  ,adult,male
+95,GSM95483,cancer,  ,not available,not available
+96,GSM523378,cancer,  ,adult,female
+97,GSM800759,cancer,stage: 2b; M1,not available,not available
+98,GSM588852,cancer,  ,not available,female
+99,GSM820068,cancer,AJCC stage II; M0,adult,female
+100,GSM452646,cancer,M1,not available,not available
+101,GSM820109,cancer,AJCC stage II; M0,adult,female
+102,GSM452649,cancer,M0,not available,not available
+103,GSM820061,cancer,AJCC stage II; M0,adult,female
+104,GSM523300,cancer,  ,adult,female
+105,GSM570826,cancer,  ,not available,female
+106,GSM820075,cancer,AJCC stage II; M0,adult,male
+107,GSM800774,cancer,stage: 3b; M1,not available,not available
+108,GSM549130,cancer,stage: 3c; M1,not available,not available
+109,GSM452656,cancer,M0,not available,not available
+110,GSM820088,cancer,AJCC stage II; M1,adult,female
+111,GSM523333,cancer,  ,adult,male
+112,GSM916695,cancer,high grade dysplasia,not available,not available
+113,GSM588840,cancer,  ,not available,female
+114,GSM237940,cancer,M0,adult,male
+115,GSM820124,cancer,AJCC stage II; M0,adult,female
+116,GSM800765,cancer,stage: 2b; M0,not available,not available
+117,GSM820122,cancer,AJCC stage II; M0,adult,male
+118,GSM820084,cancer,AJCC stage II; M0,adult,female
+119,GSM916732,cancer,  ,not available,not available
+120,GSM95499,cancer,  ,not available,not available
+121,GSM95507,cancer,  ,not available,not available
+122,GSM916691,cancer,high grade dysplasia,not available,not available
+123,GSM523363,cancer,  ,adult,female
+124,GSM523319,cancer,  ,adult,male
+125,GSM523344,cancer,  ,adult,female
+126,GSM916739,cancer,  ,not available,not available
+127,GSM588855,cancer,  ,not available,male
+128,GSM588849,cancer,  ,not available,male
+129,GSM523345,cancer,  ,adult,male
+130,GSM820064,cancer,AJCC stage II; M0,adult,female
+131,GSM588844,cancer,  ,not available,male
+132,GSM916714,cancer,low grade dysplasia,not available,not available
+133,GSM820070,cancer,AJCC stage II; M0,not available,male
+134,GSM820065,cancer,AJCC stage II; M0,adult,female
+135,GSM400178,cancer,  ,not available,not available
+136,GSM523285,cancer,  ,adult,female
+137,GSM916731,cancer,  ,not available,not available
+138,GSM523318,cancer,  ,adult,female
+139,GSM95485,cancer,  ,not available,not available
+140,GSM237919,cancer,M1,adult,male
+141,GSM549134,cancer,stage: 2a; M0,not available,not available
+142,GSM523294,cancer,  ,adult,female
+143,GSM916697,cancer,high grade dysplasia,not available,not available
+144,GSM916711,cancer,low grade dysplasia,not available,not available
+145,GSM523379,cancer,  ,adult,female
+146,GSM523323,cancer,  ,adult,male
+147,GSM237956,cancer,M0,adult,male
+148,GSM820136,cancer,AJCC stage II; M0,adult,female
+149,GSM549127,cancer,stage: 4; M1,not available,not available
+150,GSM452659,cancer,M0,not available,not available
+151,GSM570823,cancer,  ,not available,female
+152,GSM820094,cancer,AJCC stage II; M0,adult,male
+153,GSM523332,cancer,  ,adult,male
+154,GSM820106,cancer,AJCC stage II; M0,adult,male
+155,GSM916716,cancer,Dukes A/B,not available,not available
+156,GSM820078,cancer,AJCC stage II; M0,adult,female
+157,GSM523354,cancer,  ,adult,female
+158,GSM523385,cancer,  ,adult,female
+159,GSM523303,cancer,  ,adult,female
+160,GSM523292,cancer,  ,adult,male
+161,GSM215090,cancer,  ,not available,not available
+162,GSM237979,cancer,M1,adult,female
+163,GSM820074,cancer,AJCC stage II; M0,adult,male
+164,GSM549131,cancer,stage: 3b; M0,not available,not available
+165,GSM215092,cancer,  ,not available,not available
+166,GSM820087,cancer,AJCC stage II; M0,adult,male
+167,GSM215112,cancer,  ,not available,not available
+168,GSM570824,cancer,  ,not available,female
+169,GSM400184,cancer,  ,not available,not available
+170,GSM523352,cancer,  ,adult,male
+171,GSM237961,cancer,M1,adult,male
+172,GSM523342,cancer,  ,adult,male
+173,GSM820104,cancer,AJCC stage II; M0,adult,male
+174,GSM237922,cancer,M0,adult,female
+175,GSM523284,cancer,  ,adult,male
+176,GSM820108,cancer,AJCC stage II; M0,adult,male
+177,GSM916708,cancer,low grade dysplasia,not available,not available
+178,GSM820110,cancer,AJCC stage II; M0,adult,male
+179,GSM523380,cancer,  ,adult,female
+180,GSM916709,cancer,low grade dysplasia,not available,not available
+181,GSM95489,cancer,  ,not available,not available
+182,GSM237914,cancer,M0,adult,female
+183,GSM215103,cancer,  ,not available,not available
+184,GSM215110,cancer,  ,not available,not available
+185,GSM400183,cancer,  ,not available,not available
+186,GSM95494,cancer,  ,not available,not available
+187,GSM800763,cancer,stage: 3c; M1,not available,not available
+188,GSM916724,cancer,Dukes A/B,not available,not available
+189,GSM237943,cancer,M0,adult,female
+190,GSM820096,cancer,AJCC stage II; M0,adult,female
+191,GSM549140,cancer,stage: 2a; M0,not available,not available
+192,GSM523296,cancer,  ,adult,female
+193,GSM820062,cancer,AJCC stage II; M0,adult,male
+194,GSM549133,cancer,stage: 1; M0,not available,not available
+195,GSM237959,cancer,M0,adult,male
+196,GSM523383,cancer,  ,adult,male
+197,GSM820095,cancer,AJCC stage II; M0,adult,female
+198,GSM916712,cancer,low grade dysplasia,not available,not available
+199,GSM588857,cancer,  ,not available,female
+200,GSM237930,cancer,M0,adult,female
+201,GSM916740,cancer,  ,not available,not available
+202,GSM820115,cancer,AJCC stage II; M0,adult,male
+203,GSM916726,cancer,Dukes A/B,not available,not available
+204,GSM523366,cancer,  ,adult,male
+205,GSM95508,cancer,  ,not available,not available
+206,GSM820125,cancer,AJCC stage II; M0,adult,male
+207,GSM95493,cancer,  ,not available,not available
+208,GSM549136,cancer,stage: 2a; M0,not available,not available
+209,GSM588847,cancer,  ,not available,female
+210,GSM800772,cancer,stage: 1; M0,not available,not available
+211,GSM800767,cancer,stage: 2a; M0,not available,not available
+212,GSM820128,cancer,AJCC stage II; M0,adult,female
+213,GSM588848,cancer,  ,not available,female
+214,GSM95482,cancer,  ,not available,not available
+215,GSM523302,cancer,  ,adult,male
+216,GSM215097,cancer,  ,not available,not available
+217,GSM237958,cancer,M0,adult,male
+218,GSM916704,cancer,low grade dysplasia,not available,not available
+219,GSM523313,cancer,  ,adult,female
+220,GSM237918,cancer,M0,adult,female
+221,GSM523328,cancer,  ,adult,male
+222,GSM95484,cancer,  ,not available,not available
+223,GSM916701,cancer,low grade dysplasia,not available,not available
+224,GSM820132,cancer,AJCC stage II; M0,adult,male
+225,GSM523353,cancer,  ,adult,male
+226,GSM588835,cancer,  ,not available,female
+227,GSM820055,cancer,AJCC stage II; M0,adult,female
+228,GSM820102,cancer,AJCC stage II; M0,adult,female
+229,GSM523341,cancer,  ,adult,male
+230,GSM237916,cancer,M0,adult,male
+231,GSM820058,cancer,AJCC stage II; M1,adult,female
+232,GSM400186,normal,  ,not available,not available
+233,GSM400187,normal,  ,not available,not available
+234,GSM400188,normal,  ,not available,not available
+235,GSM400189,normal,  ,not available,not available
+236,GSM400190,normal,  ,not available,not available
+237,GSM400191,normal,  ,not available,not available
+238,GSM215051,normal,  ,not available,not available
+239,GSM215052,normal,  ,not available,not available
+240,GSM215053,normal,  ,not available,not available
+241,GSM215054,normal,  ,not available,not available
+242,GSM215055,normal,  ,not available,not available
+243,GSM215056,normal,  ,not available,not available
+244,GSM215057,normal,  ,not available,not available
+245,GSM215058,normal,  ,not available,not available
+246,GSM215059,normal,  ,not available,not available
+247,GSM215060,normal,  ,not available,not available
+248,GSM215061,normal,  ,not available,not available
+249,GSM215062,normal,  ,not available,not available
+250,GSM215063,normal,  ,not available,not available
+251,GSM215064,normal,  ,not available,not available
+252,GSM215065,normal,  ,not available,not available
+253,GSM215066,normal,  ,not available,not available
+254,GSM215067,normal,  ,not available,not available
+255,GSM215068,normal,  ,not available,not available
+256,GSM215069,normal,  ,not available,not available
+257,GSM215070,normal,  ,not available,not available
+258,GSM215071,normal,  ,not available,not available
+259,GSM215072,normal,  ,not available,not available
+260,GSM215073,normal,  ,not available,not available
+261,GSM215074,normal,  ,not available,not available
+262,GSM215075,normal,  ,not available,not available
+263,GSM215076,normal,  ,not available,not available
+264,GSM215077,normal,  ,not available,not available
+265,GSM215078,normal,  ,not available,not available
+266,GSM215079,normal,  ,not available,not available
+267,GSM215080,normal,  ,not available,not available
+268,GSM215081,normal,  ,not available,not available
+269,GSM215082,normal,  ,not available,not available
+270,GSM549099,normal,stage: 2a; M0,not available,not available
+271,GSM549100,normal,stage: 3b; M0,not available,not available
+272,GSM549101,normal,stage: 4; M1,not available,not available
+273,GSM549102,normal,stage: 1; M0,not available,not available
+274,GSM549103,normal,stage: 3b; M1,not available,not available
+275,GSM549104,normal,stage: 1; M0,not available,not available
+276,GSM549105,normal,stage: 4; M1,not available,not available
+277,GSM549106,normal,stage: 4; M1,not available,not available
+278,GSM549107,normal,stage: 3b; M0,not available,not available
+279,GSM549108,normal,stage: 1; M0,not available,not available
+280,GSM549109,normal,stage: 2a; M0,not available,not available
+281,GSM549110,normal,stage: 2a; M0,not available,not available
+282,GSM549111,normal,stage: 2b; M0,not available,not available
+283,GSM549112,normal,stage: 4; M1,not available,not available
+284,GSM549113,normal,stage: 2b; M0,not available,not available
+285,GSM549114,normal,stage: 2a; M0,not available,not available
+286,GSM549115,normal,stage: 3b; M0,not available,not available
+287,GSM549116,normal,stage: 3b; M0,not available,not available
+288,GSM549117,normal,stage: 3b; M1,not available,not available
+289,GSM549118,normal,stage: 3c; M0,not available,not available
+290,GSM549119,normal,stage: 1; M0,not available,not available
+291,GSM549120,normal,stage: 3b; M0,not available,not available
+292,GSM549121,normal,stage: 0; M0,not available,not available
+293,GSM549122,normal,stage: 2a; M0,not available,not available
+294,GSM549123,normal,stage: 2a; M1,not available,not available
+295,GSM452629,normal,M1,not available,not available
+296,GSM452630,normal,M1,not available,not available
+297,GSM452631,normal,M1,not available,not available
+298,GSM452632,normal,M0,not available,not available
+299,GSM452633,normal,M1,not available,not available
+300,GSM452634,normal,M0,not available,not available
+301,GSM452635,normal,M0,not available,not available
+302,GSM452636,normal,M0,not available,not available
+303,GSM452637,normal,M0,not available,not available
+304,GSM452638,normal,M1,not available,not available
+305,GSM452639,normal,M0,not available,not available
+306,GSM452640,normal,M0,not available,not available
+307,GSM452641,normal,M1,not available,not available
+308,GSM452642,normal,M0,not available,not available
+309,GSM452643,normal,M0,not available,not available
+310,GSM452644,normal,M1,not available,not available
+311,GSM452645,normal,M0,not available,not available
+312,GSM570810,normal,  ,not available,female
+313,GSM570811,normal,  ,not available,female
+314,GSM570812,normal,  ,not available,female
+315,GSM570813,normal,  ,not available,female
+316,GSM570814,normal,  ,not available,female
+317,GSM570815,normal,  ,not available,female
+318,GSM570816,normal,  ,not available,female
+319,GSM570817,normal,  ,not available,female
+320,GSM570818,normal,  ,not available,female
+321,GSM570819,normal,  ,not available,female
+322,GSM570820,normal,  ,not available,female
+323,GSM570825,normal,  ,not available,female
+324,GSM588863,normal,  ,not available,male
+325,GSM588864,normal,  ,not available,male
+326,GSM588865,normal,  ,not available,female
+327,GSM588866,normal,  ,not available,male
+328,GSM588867,normal,  ,not available,male
+329,GSM588868,normal,  ,not available,male
+330,GSM588869,normal,  ,not available,female
+331,GSM588870,normal,  ,not available,male
+332,GSM588871,normal,  ,not available,male
+333,GSM588872,normal,  ,not available,male
+334,GSM588873,normal,  ,not available,male
+335,GSM588874,normal,  ,not available,male
+336,GSM588875,normal,  ,not available,female
+337,GSM588876,normal,  ,not available,male
+338,GSM588877,normal,  ,not available,male
+339,GSM588878,normal,  ,not available,male
+340,GSM588879,normal,  ,not available,male
+341,GSM588880,normal,  ,not available,male
+342,GSM588881,normal,  ,not available,female
+343,GSM588882,normal,  ,not available,female
+344,GSM588883,normal,  ,not available,male
+345,GSM588884,normal,  ,not available,female
+346,GSM588885,normal,  ,not available,male
+347,GSM588886,normal,  ,not available,female
+348,GSM800742,normal,stage: 2b; M1,not available,not available
+349,GSM800743,normal,stage: 4; M1,not available,not available
+350,GSM800744,normal,stage: 4; M1,not available,not available
+351,GSM800745,normal,stage: 3c; M0,not available,not available
+352,GSM800746,normal,stage: 3c; M1,not available,not available
+353,GSM800747,normal,stage: 3b; M0,not available,not available
+354,GSM800748,normal,stage: 2b; M0,not available,not available
+355,GSM800749,normal,stage: 1; M0,not available,not available
+356,GSM800750,normal,stage: 2a; M0,not available,not available
+357,GSM800751,normal,stage: 4; M1,not available,not available
+358,GSM800752,normal,stage: 2a; M0,not available,not available
+359,GSM800753,normal,stage: 2b; M0,not available,not available
+360,GSM800754,normal,stage: 3b; M1,not available,not available
+361,GSM800755,normal,stage: 1; M0,not available,not available
+362,GSM800756,normal,stage: 2a; M0,not available,not available
+363,GSM800757,normal,stage: 3b; M1,not available,not available
+364,GSM800758,normal,stage: 2b; M0,not available,not available
+365,GSM1100477,normal,AJCC stage II,not available,not available
+366,GSM1100478,normal,AJCC stage II,not available,not available
+367,GSM1100479,normal,AJCC stage II,not available,not available
+368,GSM1100480,normal,AJCC stage II,not available,not available
+369,GSM1100481,normal,AJCC stage II,not available,not available
+370,GSM1100482,normal,AJCC stage II,not available,not available
+371,GSM916743,normal,  ,not available,not available
+372,GSM916744,normal,  ,not available,not available
+373,GSM916745,normal,  ,not available,not available
+374,GSM916746,normal,  ,not available,not available
+375,GSM916747,normal,  ,not available,not available
+376,GSM916748,normal,  ,not available,not available
+377,GSM916749,normal,  ,not available,not available
+378,GSM916750,normal,  ,not available,not available
+379,GSM916751,normal,  ,not available,not available
+380,GSM916752,normal,  ,not available,not available
+381,GSM916753,normal,  ,not available,not available
+382,GSM916754,normal,  ,not available,not available
+383,GSM916755,normal,  ,not available,not available
+384,GSM916756,normal,  ,not available,not available
+385,GSM916757,normal,  ,not available,not available
+386,GSM916758,normal,  ,not available,not available
+387,GSM916759,normal,  ,not available,not available
+388,GSM916760,normal,  ,not available,not available
+389,GSM916761,normal,  ,not available,not available
+390,GSM916762,normal,  ,not available,not available
+391,GSM916763,normal,  ,not available,not available
+392,GSM916764,normal,  ,not available,not available
+393,GSM916765,normal,  ,not available,not available
+394,GSM916766,normal,  ,not available,not available
+395,GSM916767,normal,  ,not available,not available
+396,GSM916768,normal,  ,not available,not available
+397,GSM916769,normal,  ,not available,not available
+398,GSM916770,normal,  ,not available,not available
+399,GSM916771,normal,  ,not available,not available
+400,GSM916772,normal,  ,not available,not available
+401,GSM916773,normal,  ,not available,not available
+402,GSM916774,normal,  ,not available,not available
+403,GSM916775,normal,  ,not available,not available
+404,GSM916776,normal,  ,not available,not available
+405,GSM916777,normal,  ,not available,not available
+406,GSM916778,normal,  ,not available,not available
+407,GSM916779,normal,  ,not available,not available
+408,GSM916780,normal,  ,not available,not available
+409,GSM95473,normal,  ,not available,not available
+410,GSM95474,normal,  ,not available,not available
+411,GSM95475,normal,  ,not available,not available
+412,GSM95476,normal,  ,not available,not available
+413,GSM95477,normal,  ,not available,not available
+414,GSM95478,normal,  ,not available,not available
+415,GSM95479,normal,  ,not available,not available
+416,GSM95480,normal,  ,not available,not available
+417,GSM523242,normal,  ,not available,female
+418,GSM523243,normal,  ,not available,female
+419,GSM523246,normal,  ,not available,female
+420,GSM523268,normal,  ,not available,female
+421,GSM523269,normal,  ,not available,female
+422,GSM523270,normal,  ,not available,female
+423,GSM523271,normal,  ,not available,female
+424,GSM523273,normal,  ,not available,female
+425,GSM523274,normal,  ,not available,female
+426,GSM523280,normal,  ,not available,female
+427,GSM523282,normal,  ,adult,female
+428,GSM523286,normal,  ,adult,female
+429,GSM523289,normal,  ,adult,male
+430,GSM523290,normal,  ,adult,female
+431,GSM523291,normal,  ,adult,male
+432,GSM523297,normal,  ,adult,male
+433,GSM523299,normal,  ,adult,female
+434,GSM523304,normal,  ,adult,male
+435,GSM523310,normal,  ,adult,female
+436,GSM523311,normal,  ,adult,female
+437,GSM523314,normal,  ,adult,male
+438,GSM523324,normal,  ,adult,female
+439,GSM523330,normal,  ,adult,female
+440,GSM523338,normal,  ,adult,female
+441,GSM523343,normal,  ,adult,female
+442,GSM523349,normal,  ,adult,male
+443,GSM523358,normal,  ,adult,female
+444,GSM523360,normal,  ,adult,female
+445,GSM523364,normal,  ,adult,female
+446,GSM523365,normal,  ,adult,female
+447,GSM523369,normal,  ,adult,male
+448,GSM523373,normal,  ,adult,female
+449,GSM523377,normal,  ,adult,female
+450,GSM523382,normal,  ,adult,male
+451,GSM237984,normal,  ,adult,male
+452,GSM237985,normal,  ,adult,female
+453,GSM237986,normal,  ,adult,female
+454,GSM237987,normal,  ,adult,female
+455,GSM237988,normal,  ,adult,male
+456,GSM237989,normal,  ,adult,female
+457,GSM237990,normal,  ,adult,male
+458,GSM237991,normal,  ,adult,male
+459,GSM237992,normal,  ,adult,female
+460,GSM237993,normal,  ,adult,male
+461,GSM237994,normal,  ,adult,female
+462,GSM237995,normal,  ,adult,male
