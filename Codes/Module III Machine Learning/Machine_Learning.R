@@ -43,7 +43,7 @@ View(data) # Open dataset for inspection in RStudio
 # -------------------------------------
 # ---- Step 1. Data Transformation ----
 # --------------------------------------
-# Many expression datasets are right-skewed (some genes have very large values).
+# Many expression datasets are skewed (some genes have very large values).
 # Log transformation helps reduce skewness and stabilize variance.
 
 boxplot(data[1:30],
@@ -66,8 +66,9 @@ data_t <- as.data.frame(t(data_log))
 # -------------------------------------
 #  ---- Step 3. Feature Filtering  ----
 # -------------------------------------
-# Some genes show almost no variation across samples — these carry little information.
+# Some genes show almost no variation across samples - these carry little information.
 # Removing them reduces computational load and improves learning.
+# nzv = near zero variance
 nzv <- preProcess(data_t, method = "nzv", uniqueCut = 15)
 data_t <- predict(nzv, data_t)
 
@@ -77,6 +78,7 @@ data_t <- predict(nzv, data_t)
 # ----------------------------------------
 #  ---- Step 4. Center and Scale Features
 # ----------------------------------------
+# For more numeric stability, we van center and scale our data
 # Centering subtracts the mean; scaling divides by standard deviation.
 # Ensures all genes contribute equally to the model (important for SVM/ANN).
 process <- preProcess(data_t, method = c("center", "scale"))
@@ -90,10 +92,11 @@ data_t <- predict(process, data_t)
 anyNA(data_t)
 sum(is.na(data_t))
 
-# Option 1: Remove missing values — simple but can lose data.
+# Option 1: Remove missing values either (samples or features)- simple but can lose data.
 # Option 2: Impute missing values (recommended).
+# Simply impute missing values by mean or median values 
+# KNN imputation is another method that is more precise than mean and median.
 # KNN imputation replaces missing values using the mean of the k nearest samples.
-
 knnImpute <- preProcess(data_t, method="knnImpute")
 data_t <- predict(knnImpute, data_t)
 sum(is.na(data_t))  # Check again to confirm all missing values are handled.
@@ -254,7 +257,7 @@ results_boruta <- data.frame(
 print(results_boruta)
 
 # training error
-# 1 - accuracy(mode's accuracy)
+# 1 - accuracy(model's accuracy)
 
 # ROC & AUC Curves
 # ROC curve = True Positive Rate vs False Positive Rate
