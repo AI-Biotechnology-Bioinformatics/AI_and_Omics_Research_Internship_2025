@@ -304,7 +304,7 @@ svm_rfe <- train(x = train_rfe, y = y_train, method = "svmRadial",
                     prob.model = TRUE)
 
 #ANN
-ann_rfe <- train(x = train_boruta, y = y_train, method = "nnet",
+ann_rfe <- train(x = train_rfe, y = y_train, method = "nnet",
                     trControl = ctrl,
                     tuneGrid = data.frame(size = 1:2, decay = 0),
                     MaxNWts = 2000)
